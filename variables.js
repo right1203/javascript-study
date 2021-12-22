@@ -4,7 +4,7 @@ age = 30;
 console.log(age);
 
 // const
-const name = 'John';
+const name = "John";
 console.log(name);
 
 // const로 먼저 선언하고, 값을 변경할 필요가 있을 때만 let으로 수정
@@ -14,11 +14,11 @@ const number = 20;
 console.log(typeof number);
 
 // bigint
-const bigNumber = 123123123123123123123123123123123123n
+const bigNumber = 123123123123123123123123123123123123;
 console.log(typeof bigNumber);
 
 // string
-const str1 = 'Hello';
+const str1 = "Hello";
 const str2 = "Hello";
 console.log(str1, str2);
 
@@ -36,26 +36,26 @@ console.log(result);
 const id = Symbol();
 console.log(typeof id);
 
-const id2 = Symbol('id');
+const id2 = Symbol("id");
 console.log(id2);
 
 // Reference type
 // array
 const arrN = [1, 2, 3];
-const arrS = ['Hello', 'World'];
+const arrS = ["Hello", "World"];
 
 console.log(arrN);
 console.log(arrS);
 
 // object
 const user = {
-    id: 'abc',
-    password: 123123
-}
+  id: "abc",
+  password: 123123
+};
 
 console.log(user);
 console.log(user.id);
-console.log(user['password']);
+console.log(user["password"]);
 
 // set
 const set = new Set();
@@ -82,8 +82,8 @@ object vs map
 
 const map = new Map();
 
-map.set('Hello', 'World!');
+map.set("Hello", "World!");
 map.set(123, 456);
 
 console.log(map);
-console.log(map.get('Hello'));
+console.log(map.get("Hello"));
