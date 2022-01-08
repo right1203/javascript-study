@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<body>
+  <p id="a1">a1</p>
+  <p id="a2">a2</p>
+  <script>
+    var now = new Date();
+    document.getElementById("a1").innerText = now;
+    var abc = document.querySelector("#a2"); //querySelector는 트리의 텍스트, 속성 노드까지 자유롭게 제어 가능
+    //id는 #, class는 .으로 접근
+    abc.onclick = function () {
+      alert("글자를 클릭했습니다.");
+    };
+  </script>
+</body>
